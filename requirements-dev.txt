@@ -1,0 +1,12 @@
+# Development and CI tooling
+# Installed by .github/workflows/deploy.yml during lint-and-test job
+
+# Linting
+flake8==7.1.1
+
+# Testing
+pytest==8.3.3
+pytest-cov==5.0.0
+
+# Useful pytest plugin for clearer assertion diffs (optional but lightweight)
+pytest-clarity==1.0.1
