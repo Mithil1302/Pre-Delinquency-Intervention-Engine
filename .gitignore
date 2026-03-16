@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+
+# Azure Functions
+
+local.settings.json
+.python_packages/
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+.func
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment Variables
+.env
+.env.local
+config/env.yml
+*.secret
+
+# IDE
+.idea/
+
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ML Models & Data
+models/*.pkl
+models/*.joblib
+data/raw/
+data/processed/
+*.h5
+*.hdf5
+*.parquet
+
+# Logs
+*.log
+logs/
+
+# Azure
+*.publishsettings
+*.azurePubxml
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+.venv
+certs/

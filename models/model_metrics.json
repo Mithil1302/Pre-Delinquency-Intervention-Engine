@@ -1,0 +1,34 @@
+{
+  "train_metrics": {
+    "auc": 1.0,
+    "ks_statistic": 1.0,
+    "confusion_matrix": [
+      [
+        601,
+        0
+      ],
+      [
+        0,
+        99
+      ]
+    ],
+    "default_rate_actual": 0.14142857142857143,
+    "default_rate_predicted": 0.14142857142857143
+  },
+  "test_metrics": {
+    "auc": 0.9701384490091394,
+    "ks_statistic": 0.8833589720387295,
+    "confusion_matrix": [
+      [
+        249,
+        8
+      ],
+      [
+        7,
+        36
+      ]
+    ],
+    "default_rate_actual": 0.14333333333333334,
+    "default_rate_predicted": 0.14666666666666667
+  }
+}

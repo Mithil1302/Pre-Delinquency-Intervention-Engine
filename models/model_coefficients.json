@@ -1,0 +1,151 @@
+{
+  "intercept": -172.42694499798017,
+  "coefficients": {
+    "X1": {
+      "value": 31.31442672068299,
+      "description": "DTI Ratio"
+    },
+    "X2": {
+      "value": 12.513313841591016,
+      "description": "Income Stability (CV)"
+    },
+    "X3": {
+      "value": 125.89537998088237,
+      "description": "Income Trend"
+    },
+    "X4": {
+      "value": -4.036477922899966,
+      "description": "Credit Utilization"
+    },
+    "X5": {
+      "value": 13.53638483127574,
+      "description": "Active Loan Count"
+    },
+    "X6": {
+      "value": -5.198929047396666,
+      "description": "Inquiry Rate"
+    },
+    "X7": {
+      "value": -4.450653826441014,
+      "description": "Liquidity Ratio"
+    },
+    "X8": {
+      "value": 43.924880557484954,
+      "description": "Net Surplus Ratio"
+    },
+    "X9": {
+      "value": 33.56197010735374,
+      "description": "Low Balance Frequency"
+    },
+    "X10": {
+      "value": -37.2511686368031,
+      "description": "Average EMI Delay"
+    },
+    "X11": {
+      "value": 53.384975067801435,
+      "description": "Missed Payment Rate"
+    },
+    "X12": {
+      "value": 5.804658389246523,
+      "description": "Debt Growth Rate"
+    },
+    "X13": {
+      "value": 0.0,
+      "description": "Salary Delay Days"
+    },
+    "X14": {
+      "value": 0.0,
+      "description": "Salary Delay Z-Score"
+    },
+    "X15": {
+      "value": -33.26502069623987,
+      "description": "Savings Drawdown %"
+    },
+    "X16": {
+      "value": -14.635730225462392,
+      "description": "Balance Trend 7v30"
+    },
+    "X17": {
+      "value": 1.1793959667638538,
+      "description": "Balance Volatility 30d"
+    },
+    "X18": {
+      "value": -0.5005377412632855,
+      "description": "Spending Compression"
+    },
+    "X19": {
+      "value": -2.552257565130212,
+      "description": "Discretionary Compression"
+    },
+    "X20": {
+      "value": 19.045691789569254,
+      "description": "Expense-to-Income Ratio"
+    },
+    "X21": {
+      "value": -4.354732456225594,
+      "description": "ATM Cash Intensity"
+    },
+    "X22": {
+      "value": -8.398968954524536,
+      "description": "Lending App Count 30d"
+    },
+    "X23": {
+      "value": 22.117959666532855,
+      "description": "Failed EMI Count 30d"
+    },
+    "X24": {
+      "value": 93.77098483749702,
+      "description": "Subscription Cancellation"
+    },
+    "X25": {
+      "value": -16.599820813852354,
+      "description": "Altman Z-Score"
+    },
+    "X26": {
+      "value": 1.8388329852786327,
+      "description": "Merton Default Probability"
+    },
+    "X27": {
+      "value": 32.39465280734148,
+      "description": "CUSUM Regime Change"
+    },
+    "X28": {
+      "value": 1.556518685027879,
+      "description": "EWMA Annualised Volatility"
+    },
+    "X29": {
+      "value": -23.362131965697902,
+      "description": "Cash Flow at Risk (95th)"
+    },
+    "X30": {
+      "value": -26.668531616187916,
+      "description": "Spending Entropy"
+    },
+    "X31": {
+      "value": -29.004658354294545,
+      "description": "Spending HHI"
+    },
+    "X32": {
+      "value": 24.73002356808795,
+      "description": "Balance Momentum RSI"
+    },
+    "X33": {
+      "value": 16.459949317631885,
+      "description": "DSCR Ratio"
+    },
+    "X34": {
+      "value": 2.801325647773688,
+      "description": "Springate S-Score"
+    },
+    "X35": {
+      "value": -21.654606191532142,
+      "description": "Rachlis Fragility Index"
+    }
+  },
+  "formula": "PD = 1 / (1 + exp(-(\u03b2\u2080 + \u03a3(\u03b2_j * X_j))))",
+  "risk_zones": {
+    "Green": "PD < 3%",
+    "Yellow": "3% \u2264 PD < 8%",
+    "Red": "PD \u2265 8%"
+  }
+}
